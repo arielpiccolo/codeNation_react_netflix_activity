@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react'
 import '../src/App.css';
-import '../src/App.js';
+import Child from './component/Child'
 
-class App extends React.Component {
+export default class App extends Component {
   render() {
     return (
+      
       <React.Fragment>
 
         <h1 className="title">CodeNation Netflix FAQ Activity</h1>
@@ -38,4 +39,3 @@ class App extends React.Component {
   }
 }
 
-export default App;
